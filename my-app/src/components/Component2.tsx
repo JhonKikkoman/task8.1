@@ -6,7 +6,7 @@ export function Component2() {
   const { error } = useJsonFetch('http://localhost:7070/error');
   return (
     <>
-      <span>{`Component2 - ${error?.status}`}</span>
+      <span>{`Component2 - ${error}`}</span>
     </>
   );
 }

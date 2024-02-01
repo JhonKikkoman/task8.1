@@ -10,9 +10,9 @@ import { Component3 } from './components/Components3';
 function App() {
   return (
     <div className='App'>
-      {/* <Component1 />
-      <Component2 />
-      <Component3 /> */}
+      <Component1 />
+      {/* <Component2 /> */}
+      {/* <Component3 /> */}
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>

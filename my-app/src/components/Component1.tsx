@@ -7,7 +7,7 @@ export function Component1() {
 
   return (
     <>
-      <span>{`Component1 - ${data?.status}`}</span>
+      <span>{`Component1 - ${data}`}</span>
     </>
   );
 }
